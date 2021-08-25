@@ -1,6 +1,6 @@
 from django.urls import path
 
-from payment.views import PaymentReserverView,PaymentApprovalView,PaymentCancelView,PaymentStatusView,PaymentSttlinqView
+from payment.views import PaymentReserverView, PaymentApprovalView, PaymentCancelView, PaymentStatusView, PaymentSttlinqView
 
 urlpatterns = [
     path('api_v1_payment_reserve.jct', PaymentReserverView.as_view()),

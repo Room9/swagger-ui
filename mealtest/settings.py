@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'payment',
-    'drf_yasg'
+    'drf_yasg',
     ]
 
 MIDDLEWARE = [
@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mealtest',
         'USER': 'admin',
-        'PASSWORD': 'happymisic1#',
+        'PASSWORD': '',
         'HOST': 'testdata.ch1v7vb7kdnw.ap-northeast-2.rds.amazonaws.com',
         'PORT': '3306',
     }
