@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'mealtest',
         'USER': 'admin',
         'PASSWORD': '',
-        'HOST': 'testdata.ch1v7vb7kdnw.ap-northeast-2.rds.amazonaws.com',
+        'HOST': '',
         'PORT': '3306',
     }
 }
